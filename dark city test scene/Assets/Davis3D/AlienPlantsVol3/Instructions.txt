@@ -1,0 +1,19 @@
+---How to swap to URP or HDRP Render Pipelines---
+
+1.) Install your Render Pipeline if you have not already.
+2.) Switch to your Render Pipeline in the Project Settings.
+3.) Inside the "AlienPlantsVol3" folder, I want you to delete all folders except for the "Textures" folder
+So delete these folders:
+- Materials
+- Meshes
+- Prefabs
+- Scenes
+- Scripts
+- Shaders
+- Sound
+
+4.) Inside the "AlienPlantsVol3" folder, you'll find two packages.
+Extract your chosen Render Pipeline Package
+(Choose from the following)
+- BasicRP_Patch
+- URP_Patch
