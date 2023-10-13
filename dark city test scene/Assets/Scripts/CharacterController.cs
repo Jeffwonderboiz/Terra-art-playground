@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics;
 using UnityEngine;
 using static UnityEditor.Searcher.SearcherWindow.Alignment;
 
@@ -26,39 +27,29 @@ public class CharacterController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(verticalInput);
+        //Debug.Log(verticalInput);
         // Move the character on the Z (forward) and X (sideways) axes
-        horizontalInput = Input.GetAxis("Vertical");
-        verticalInput = Input.GetAxis("Horizontal");
+        horizontalInput = Input.GetAxis("Horizontal");
+        verticalInput = Input.GetAxis("Vertical");
 
-        Vector3 move = new Vector3(-horizontalInput, 0, verticalInput);
+        Vector3 move = new Vector3(-verticalInput, 0, horizontalInput);
 
         if (!Mathf.Approximately(move.x, 0.0f) || !Mathf.Approximately(move.z, 0.0f))
         {
-            lookDirection.Set(move.x, 0, move.z);
+            lookDirection.Set(move.z, 0, move.x);
             lookDirection.Normalize();
         }
-
-        playerAnim.SetFloat("MoveX", lookDirection.x);
-        playerAnim.SetFloat("MoveZ", lookDirection.z);
-        ////playerAnim.SetFloat("Speed", move.magnitude);
+        playerAnim.SetFloat("MoveX", lookDirection.z);
+        playerAnim.SetFloat("MoveZ", lookDirection.x);
+        //SetFloat("Speed", move.magnitude);
     }
 
     private void FixedUpdate()
     {
         Vector3 position = playerRb.position;
-        position.x = position.x + moveSpeed * -horizontalInput * Time.deltaTime;
-        position.z = position.z + moveSpeed * verticalInput * Time.deltaTime;
+        position.x = position.x + moveSpeed * -verticalInput * Time.deltaTime;
+        position.z = position.z + moveSpeed * horizontalInput * Time.deltaTime;
         playerRb.MovePosition(position);
-    }
-
-    void PlayerAttack()
-    {
-        if(Input.GetButtonDown("fire 1"))
-        {
-            //play attack anim
-        }
-        
     }
 
 }

@@ -3166,13 +3166,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 825257651}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -20.214039, y: 16.521006, z: -2.5173297}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -27.677048, y: -8.296286, z: -0.71879625}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_Father: {fileID: 935102154}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &827181029 stripped
 Transform:
@@ -3897,6 +3897,7 @@ Transform:
   m_Children:
   - {fileID: 1570855576}
   - {fileID: 1844071564}
+  - {fileID: 825257653}
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6717,23 +6718,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2313213288743934708, guid: 294baf32ef2e4274bb268cc45fe87d15, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2313213288743934708, guid: 294baf32ef2e4274bb268cc45fe87d15, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.0000002
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2313213288743934708, guid: 294baf32ef2e4274bb268cc45fe87d15, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.0000002
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2313213288743934708, guid: 294baf32ef2e4274bb268cc45fe87d15, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2313213288743934708, guid: 294baf32ef2e4274bb268cc45fe87d15, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2313213288743934708, guid: 294baf32ef2e4274bb268cc45fe87d15, type: 3}
       propertyPath: m_LocalPosition.z
@@ -8042,10 +8043,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 7.2132077
-  m_Height: 14.426418
+  m_Radius: 2.7145855
+  m_Height: 8.9409
   m_Direction: 1
-  m_Center: {x: -0.2145179, y: 6.48262, z: 0.7625564}
+  m_Center: {x: 0.35, y: 7.4, z: 0.2}
 --- !u!1 &1914638556
 GameObject:
   m_ObjectHideFlags: 0
