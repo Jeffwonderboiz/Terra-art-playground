@@ -1549,7 +1549,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6008778221786060082, guid: c261a703ac271c14981d1eaa74b69681, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -1.24
       objectReference: {fileID: 0}
     - target: {fileID: 6008778221786060082, guid: c261a703ac271c14981d1eaa74b69681, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1557,7 +1557,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6008778221786060082, guid: c261a703ac271c14981d1eaa74b69681, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -2.6
       objectReference: {fileID: 0}
     - target: {fileID: 6008778221786060082, guid: c261a703ac271c14981d1eaa74b69681, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3095,6 +3095,85 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4390619709673674, guid: 5eba866aead2f5142b3315c7dfd56cb5, type: 3}
   m_PrefabInstance: {fileID: 814068907}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &825257651
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 825257653}
+  - component: {fileID: 825257652}
+  m_Layer: 0
+  m_Name: CustomPass
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &825257652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 825257651}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26d6499a6bd256e47b859377446493a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IsGlobal: 1
+  fadeRadius: 0
+  priority: -1
+  customPasses:
+  - rid: 2185399359864045568
+  injectionPoint: 3
+  m_TargetCamera: {fileID: 2075899397}
+  useTargetCamera: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 2185399359864045568
+      type: {class: DrawRenderersCustomPass, ns: UnityEngine.Rendering.HighDefinition, asm: Unity.RenderPipelines.HighDefinition.Runtime}
+      data:
+        m_Name: Custom Pass
+        enabled: 1
+        targetColorBuffer: 0
+        targetDepthBuffer: 0
+        clearFlags: 0
+        passFoldout: 0
+        m_Version: 0
+        filterFoldout: 1
+        rendererFoldout: 1
+        renderQueueType: 10
+        layerMask:
+          serializedVersion: 2
+          m_Bits: 8
+        sortingCriteria: 23
+        overrideMaterial: {fileID: 0}
+        overrideMaterialPassIndex: 0
+        overrideMaterialPassName: Forward
+        overrideDepthState: 0
+        depthCompareFunction: 4
+        depthWrite: 1
+        shaderPass: 0
+--- !u!4 &825257653
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 825257651}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -20.214039, y: 16.521006, z: -2.5173297}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &827181029 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1030974793, guid: abc00000000012670300172296192615, type: 3}
@@ -5600,7 +5679,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1900940007}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1326289871
 PrefabInstance:
@@ -7873,6 +7952,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 6547007026645903160, guid: 213e604c29c2bfa4099cb020e7c3a10b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7483552396016482423, guid: 213e604c29c2bfa4099cb020e7c3a10b, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -7891,7 +7974,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7483552396016482423, guid: 213e604c29c2bfa4099cb020e7c3a10b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -1.24
       objectReference: {fileID: 0}
     - target: {fileID: 7483552396016482423, guid: 213e604c29c2bfa4099cb020e7c3a10b, type: 3}
       propertyPath: m_LocalPosition.y
@@ -7899,27 +7982,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7483552396016482423, guid: 213e604c29c2bfa4099cb020e7c3a10b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -2.6
       objectReference: {fileID: 0}
     - target: {fileID: 7483552396016482423, guid: 213e604c29c2bfa4099cb020e7c3a10b, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.67437977
+      value: 0.6830127
       objectReference: {fileID: 0}
     - target: {fileID: 7483552396016482423, guid: 213e604c29c2bfa4099cb020e7c3a10b, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.21263108
+      value: 0.18301274
       objectReference: {fileID: 0}
     - target: {fileID: 7483552396016482423, guid: 213e604c29c2bfa4099cb020e7c3a10b, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.67437977
+      value: -0.6830127
       objectReference: {fileID: 0}
     - target: {fileID: 7483552396016482423, guid: 213e604c29c2bfa4099cb020e7c3a10b, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.21263108
+      value: 0.18301274
       objectReference: {fileID: 0}
     - target: {fileID: 7483552396016482423, guid: 213e604c29c2bfa4099cb020e7c3a10b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 35
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 7483552396016482423, guid: 213e604c29c2bfa4099cb020e7c3a10b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -7963,53 +8046,6 @@ CapsuleCollider:
   m_Height: 14.426418
   m_Direction: 1
   m_Center: {x: -0.2145179, y: 6.48262, z: 0.7625564}
---- !u!114 &1900940014
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1603833791}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 26d6499a6bd256e47b859377446493a1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IsGlobal: 0
-  fadeRadius: 0
-  priority: -1
-  customPasses:
-  - rid: 2185399359864045568
-  injectionPoint: 3
-  m_TargetCamera: {fileID: 2075899397}
-  useTargetCamera: 1
-  references:
-    version: 2
-    RefIds:
-    - rid: 2185399359864045568
-      type: {class: DrawRenderersCustomPass, ns: UnityEngine.Rendering.HighDefinition, asm: Unity.RenderPipelines.HighDefinition.Runtime}
-      data:
-        m_Name: Custom Pass
-        enabled: 1
-        targetColorBuffer: 0
-        targetDepthBuffer: 0
-        clearFlags: 0
-        passFoldout: 0
-        m_Version: 0
-        filterFoldout: 1
-        rendererFoldout: 1
-        renderQueueType: 2
-        layerMask:
-          serializedVersion: 2
-          m_Bits: 8
-        sortingCriteria: 23
-        overrideMaterial: {fileID: 0}
-        overrideMaterialPassIndex: 0
-        overrideMaterialPassName: Forward
-        overrideDepthState: 0
-        depthCompareFunction: 4
-        depthWrite: 1
-        shaderPass: 0
 --- !u!1 &1914638556
 GameObject:
   m_ObjectHideFlags: 0
