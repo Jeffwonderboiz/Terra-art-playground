@@ -9,7 +9,9 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: HDRPBFGrassTerrain01
   m_Shader: {fileID: 4800000, guid: 06d919d7eebd56c419ffb0af64b8f5b7, type: 3}
-  m_ValidKeywords: []
+  m_ValidKeywords:
+  - USE_BMP
+  - USE_RT
   m_InvalidKeywords:
   - USE_S
   - _RTEFFECT_ON
@@ -31,11 +33,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Control0:
-        m_Texture: {fileID: -8878589110793548767, guid: 5eb3b851b5432eb468895a52f2f52d6c, type: 2}
+        m_Texture: {fileID: 3799178100540200639, guid: b0a82f8d0aa85c74da44ad7cb6fdd126, type: 2}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Control1:
-        m_Texture: {fileID: 4437195408753355032, guid: 5eb3b851b5432eb468895a52f2f52d6c, type: 2}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -210,8 +212,8 @@ Material:
     - _GlossyReflections: 1
     - _GrassCut: 0
     - _GrassSaturation: 2.48
-    - _GrassShading: 0.115
-    - _GrassThinness: 0.79
+    - _GrassShading: 0.005
+    - _GrassThinness: 1.26
     - _GrassThinnessIntersection: 0.89
     - _Metallic: 0
     - _Metallic0: 0
@@ -226,7 +228,7 @@ Material:
     - _Mode: 0
     - _NearCameraSmoosh: 10.4
     - _NoisePower: 0.69
-    - _NumberOfStacks: 10.1
+    - _NumberOfStacks: 7.38
     - _OcclusionStrength: 1
     - _OffsetValue: 4.5
     - _Parallax: 0.02
@@ -240,7 +242,7 @@ Material:
     - _RTEffect: 1
     - _RimMax: 0.931
     - _RimMin: 0.867
-    - _RimPower: 7.41
+    - _RimPower: 7.18
     - _ShadowFuziness: 1
     - _ShadowMax: 0
     - _SmoothnessTextureChannel: 0
@@ -265,11 +267,11 @@ Material:
     - _TransparentZWrite: 0
     - _UVSec: 0
     - _UseAmbientLight: 0
-    - _UseBetterModelPrecision: 0
+    - _UseBetterModelPrecision: 1
     - _UseBiplanar: 0
     - _UseCS: 0
     - _UsePR: 0
-    - _UseRT: 0
+    - _UseRT: 1
     - _UseShadow: 1
     - _UseShadowCast: 0
     - _UseSuperStack: 0
