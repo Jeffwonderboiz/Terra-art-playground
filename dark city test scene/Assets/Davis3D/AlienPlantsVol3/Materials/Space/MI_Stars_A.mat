@@ -57,7 +57,7 @@ Material:
     - _BlendMode: 0
     - _CullMode: 2
     - _CullModeForward: 2
-    - _DarkenPattern_Contrast: 1
+    - _DarkenPattern_Contrast: 2
     - _DarkenPattern_UVScale: 0.25
     - _DistortionEnable: 0
     - _DistortionOnly: 0
@@ -74,7 +74,7 @@ Material:
     - _RequireSplitLighting: 0
     - _SrcBlend: 1
     - _StarBrightness: 20
-    - _StarTinyBrightness: 10
+    - _StarTinyBrightness: 4.3
     - _StencilRef: 0
     - _StencilRefDepth: 0
     - _StencilRefDistortionVec: 4
@@ -93,7 +93,7 @@ Material:
     - _TransparentWritingMotionVec: 0
     - _TransparentZWrite: 0
     - _UVScale: 0.3
-    - _UVScaleTiny: 0.7
+    - _UVScaleTiny: 0.66
     - _UVSec: 0
     - _UseShadowThreshold: 0
     - _ZTestDepthEqualForOpaque: 4
@@ -105,6 +105,6 @@ Material:
     - _Color: {r: 0.8, g: 0.8, b: 0.8, a: 1}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
-    - _StarGlow: {r: 1, g: 1, b: 1, a: 1}
+    - _StarGlow: {r: 0.8301887, g: 0.246707, b: 0.7994492, a: 1}
     - _UnlitColorMap_MipInfo: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []

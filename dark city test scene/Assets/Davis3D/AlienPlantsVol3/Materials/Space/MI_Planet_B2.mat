@@ -9,8 +9,6 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: MI_Planet_B2
   m_Shader: {fileID: 4800000, guid: a4430e24a807d1143aa614bbf8bd72e3, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords:
   - _ADD_PRECOMPUTED_VELOCITY
@@ -23,7 +21,6 @@ Material:
     MotionVector: User
   disabledShaderPasses:
   - TransparentBackface
-  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -89,10 +86,10 @@ Material:
     - _Darkside_Gradient_StartingPoint: 0
     - _Darkside_Intensity: 0.6
     - _DetailDistance: 100000
-    - _DetailTransition: 50000
+    - _DetailTransition: 50750
     - _Dif_Constrast: 1
     - _Dif_Desaturation: 1
-    - _Dif_Hue: -0.45
+    - _Dif_Hue: 4.28
     - _Dif_Scale: 1
     - _Diffuse_Coord_X: 1
     - _Diffuse_Coord_Y: 1
@@ -120,10 +117,10 @@ Material:
     - _StencilRefGBuffer: 10
     - _StencilRefMV: 40
     - _StencilWriteMask: 6
-    - _StencilWriteMaskDepth: 9
+    - _StencilWriteMaskDepth: 8
     - _StencilWriteMaskDistortionVec: 4
-    - _StencilWriteMaskGBuffer: 15
-    - _StencilWriteMaskMV: 41
+    - _StencilWriteMaskGBuffer: 14
+    - _StencilWriteMaskMV: 40
     - _SupportDecals: 1
     - _SurfaceDetailAmount: 0.7
     - _SurfaceDetail_Scale_1: 40

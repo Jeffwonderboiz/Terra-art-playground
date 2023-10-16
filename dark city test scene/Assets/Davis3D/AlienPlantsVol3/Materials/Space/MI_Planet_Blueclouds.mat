@@ -68,24 +68,24 @@ Material:
     m_Ints: []
     m_Floats:
     - _AddPrecomputedVelocity: 1
-    - _AlphaCutoff: 0.5
+    - _AlphaCutoff: 0.545
     - _AlphaCutoffEnable: 0
     - _AlphaDstBlend: 0
     - _AlphaSrcBlend: 1
     - _AlphaToMask: 0
     - _AlphaToMaskInspectorValue: 0
-    - _Atmosphere_Brightness: 100
+    - _Atmosphere_Brightness: -9.53
     - _Atmosphere_Fresnel: 1
     - _Atmosphere_Power: 5
     - _BlendMode: 0
-    - _Brightness_MASTER: 5
-    - _CloudAmount: 0.75
-    - _CloudRotationSpeed: 0.5
+    - _Brightness_MASTER: 29.9
+    - _CloudAmount: 4
+    - _CloudRotationSpeed: 1
     - _CullMode: 2
     - _CullModeForward: 2
     - _Darkside_GradientPower: 0.5
     - _Darkside_Gradient_StartingPoint: 0
-    - _Darkside_Intensity: 1
+    - _Darkside_Intensity: -2.28
     - _DetailDistance: 100000
     - _DetailTransition: 5000
     - _Dif_Constrast: 0
@@ -144,13 +144,13 @@ Material:
     - _ZWrite: 1
     - __dirty: 0
     m_Colors:
-    - _AtmosphereColor: {r: 0, g: 0.52315855, b: 1, a: 0}
-    - _CloudColor: {r: 1, g: 1, b: 1, a: 1}
+    - _AtmosphereColor: {r: 0.6886792, g: 0.36707902, b: 0.41160813, a: 1}
+    - _CloudColor: {r: 0.5566038, g: 0.18771736, b: 0, a: 1}
     - _Color: {r: 0.8, g: 0.8, b: 0.8, a: 1}
-    - _Darkside_Color_Bottom: {r: 0, g: 0, b: 0, a: 0}
+    - _Darkside_Color_Bottom: {r: 0.254717, g: 0.19344074, b: 0.19344074, a: 1}
     - _Darkside_Color_Top: {r: 0, g: 0, b: 0, a: 0}
-    - _DifColor: {r: 0, g: 0.28571463, b: 1, a: 1}
-    - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
+    - _DifColor: {r: 0.68396217, g: 0.77443576, b: 1, a: 1}
+    - _DoubleSidedConstants: {r: 1, g: 1, b: 1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _LightVector: {r: 0, g: 1, b: -0.5, a: 0}
     - _UnlitColorMap_MipInfo: {r: 0, g: 0, b: 0, a: 0}

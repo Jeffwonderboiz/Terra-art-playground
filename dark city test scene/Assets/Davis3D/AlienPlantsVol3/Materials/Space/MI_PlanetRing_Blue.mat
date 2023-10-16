@@ -46,7 +46,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _Opacity:
         m_Texture: {fileID: 2800000, guid: abc00000000002534773027231974358, type: 3}
-        m_Scale: {x: 1, y: 1}
+        m_Scale: {x: -10.4, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Shadow:
         m_Texture: {fileID: 2800000, guid: abc00000000008004390551785253589, type: 3}
@@ -64,7 +64,7 @@ Material:
     - _AlphaDstBlend: 10
     - _AlphaSrcBlend: 0
     - _BlendMode: 0
-    - _Brightness: 1
+    - _Brightness: 0.73
     - _CullMode: 0
     - _CullModeForward: 0
     - _Desaturation: 0.8
@@ -76,8 +76,8 @@ Material:
     - _DstBlend: 10
     - _EnableFogOnTransparent: 1
     - _Glow: 1
-    - _Hue: 0
-    - _Opacity_Intensity: 5
+    - _Hue: 2.55
+    - _Opacity_Intensity: -12.2
     - _OpaqueCullMode: 2
     - _ReceivesSSR: 1
     - _ReceivesSSRTransparent: 0

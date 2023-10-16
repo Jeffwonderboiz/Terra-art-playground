@@ -9,10 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: HDRPBFGrassTerrain01
   m_Shader: {fileID: 4800000, guid: 06d919d7eebd56c419ffb0af64b8f5b7, type: 3}
-  m_ValidKeywords:
-  - USE_CS
-  - USE_RT
-  - USE_SC
+  m_ValidKeywords: []
   m_InvalidKeywords:
   - USE_S
   - _RTEFFECT_ON
@@ -62,7 +59,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _GrassTex:
-        m_Texture: {fileID: 2800000, guid: b97e4be25c3932344b0b5b0ffe62377d, type: 3}
+        m_Texture: {fileID: 2800000, guid: ba86a4af9e5be094690b5afc214215bd, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _GroundTex:
@@ -207,15 +204,15 @@ Material:
     - _FadeAmplitude: 28
     - _FadeDistance: 16
     - _FadeDistanceEnd: 200
-    - _FadeDistanceStart: 150
+    - _FadeDistanceStart: 100
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _GrassCut: 0
     - _GrassSaturation: 2.48
-    - _GrassShading: 0
-    - _GrassThinness: 0.825
-    - _GrassThinnessIntersection: 0.07
+    - _GrassShading: 0.115
+    - _GrassThinness: 0.79
+    - _GrassThinnessIntersection: 0.89
     - _Metallic: 0
     - _Metallic0: 0
     - _Metallic1: 0
@@ -225,11 +222,11 @@ Material:
     - _Metallic5: 0
     - _Metallic6: 1
     - _Metallic7: 0
-    - _MinimumNumberStacks: 2
+    - _MinimumNumberStacks: 9.01
     - _Mode: 0
-    - _NearCameraSmoosh: 4
-    - _NoisePower: 0
-    - _NumberOfStacks: 16
+    - _NearCameraSmoosh: 10.4
+    - _NoisePower: 0.69
+    - _NumberOfStacks: 10.1
     - _OcclusionStrength: 1
     - _OffsetValue: 4.5
     - _Parallax: 0.02
@@ -243,7 +240,7 @@ Material:
     - _RTEffect: 1
     - _RimMax: 0.931
     - _RimMin: 0.867
-    - _RimPower: 0.73
+    - _RimPower: 7.41
     - _ShadowFuziness: 1
     - _ShadowMax: 0
     - _SmoothnessTextureChannel: 0
@@ -261,20 +258,20 @@ Material:
     - _StencilWriteMaskMV: 32
     - _SurfaceType: 0
     - _TextureScale: 0.25
-    - _TilingN1: 6.78
+    - _TilingN1: 10.11
     - _TilingN2: 0.05
     - _TilingN3: 0.5
-    - _TransparentCullMode: 2
+    - _TransparentCullMode: 1
     - _TransparentZWrite: 0
     - _UVSec: 0
     - _UseAmbientLight: 0
     - _UseBetterModelPrecision: 0
     - _UseBiplanar: 0
-    - _UseCS: 1
+    - _UseCS: 0
     - _UsePR: 0
-    - _UseRT: 1
+    - _UseRT: 0
     - _UseShadow: 1
-    - _UseShadowCast: 1
+    - _UseShadowCast: 0
     - _UseSuperStack: 0
     - _UseTP: 0
     - _UseVR: 0
