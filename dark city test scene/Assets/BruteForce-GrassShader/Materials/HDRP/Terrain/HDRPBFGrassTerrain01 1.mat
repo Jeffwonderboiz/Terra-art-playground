@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: HDRPBFGrassTerrain01
+  m_Name: HDRPBFGrassTerrain01 1
   m_Shader: {fileID: 4800000, guid: 06d919d7eebd56c419ffb0af64b8f5b7, type: 3}
   m_ValidKeywords:
   - USE_BMP
@@ -33,11 +33,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Control0:
-        m_Texture: {fileID: 3799178100540200639, guid: b0a82f8d0aa85c74da44ad7cb6fdd126, type: 2}
+        m_Texture: {fileID: -8878589110793548767, guid: 5eb3b851b5432eb468895a52f2f52d6c, type: 2}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Control1:
-        m_Texture: {fileID: 1468070241884637897, guid: b0a82f8d0aa85c74da44ad7cb6fdd126, type: 2}
+        m_Texture: {fileID: 4437195408753355032, guid: 5eb3b851b5432eb468895a52f2f52d6c, type: 2}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -105,7 +105,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normal4:
-        m_Texture: {fileID: 2800000, guid: 9d057bf3d0f71e348861cfd867c99070, type: 3}
+        m_Texture: {fileID: 2800000, guid: 4e1d764fa7e47f34eae88e37253c2542, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normal5:
@@ -149,7 +149,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 1}
     - _Splat4:
-        m_Texture: {fileID: 2800000, guid: ba86a4af9e5be094690b5afc214215bd, type: 3}
+        m_Texture: {fileID: 2800000, guid: 35832e4bcb865be44867dbdb64c65aca, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Splat5:
@@ -302,11 +302,11 @@ Material:
     - _Specular1: {r: 1, g: 1, b: 1, a: 1}
     - _Specular2: {r: 1, g: 1, b: 1, a: 1}
     - _Specular3: {r: 1, g: 1, b: 1, a: 1}
-    - _Specular4: {r: 0.9203198, g: 0.9339623, b: 0.6740388, a: 1}
+    - _Specular4: {r: 0.6839622, g: 1, b: 0.9745568, a: 1}
     - _Specular5: {r: 0.6963332, g: 0.7340121, b: 0.9056604, a: 1}
     - _Specular6: {r: 0.9198113, g: 0.9616489, b: 1, a: 1}
     - _Specular7: {r: 1, g: 1, b: 1, a: 1}
-    - _Splat4_STn: {r: 1, g: 1, b: 1, a: 1.22}
+    - _Splat4_STn: {r: 1, g: 1, b: 3.81, a: 1.06}
     - _Splat5_STn: {r: 1, g: 1, b: 1, a: 1.22}
     - _Splat6_STn: {r: 1, g: 1, b: 1.88, a: 1}
     - _Splat7_STn: {r: 1, g: 1, b: 0, a: 1}
