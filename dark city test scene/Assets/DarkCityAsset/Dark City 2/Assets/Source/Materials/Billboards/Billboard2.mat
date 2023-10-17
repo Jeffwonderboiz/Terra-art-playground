@@ -9,8 +9,6 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Billboard2
   m_Shader: {fileID: 4800000, guid: 4535da714c5d3fa4fa8be92d3c0bea96, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _ENABLE_FOG_ON_TRANSPARENT
   - _SURFACE_TYPE_TRANSPARENT
@@ -25,7 +23,6 @@ Material:
     RenderType: Transparent
   disabledShaderPasses:
   - TransparentBackface
-  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -174,10 +171,10 @@ Material:
     - _StencilRefGBuffer: 2
     - _StencilRefMV: 32
     - _StencilWriteMask: 6
-    - _StencilWriteMaskDepth: 9
+    - _StencilWriteMaskDepth: 8
     - _StencilWriteMaskDistortionVec: 4
-    - _StencilWriteMaskGBuffer: 15
-    - _StencilWriteMaskMV: 41
+    - _StencilWriteMaskGBuffer: 14
+    - _StencilWriteMaskMV: 40
     - _Strength: 0.11
     - _SupportDecals: 1
     - _SurfaceType: 1
@@ -201,6 +198,7 @@ Material:
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _Glitch1: {r: 0.50735295, g: 0.50735295, b: 0.50735295, a: 0}
     - _Glitch2: {r: 0, g: 0.7931032, b: 1, a: 0}
+    - _LogoColor: {r: 1, g: 1, b: 1, a: 0}
     - _Size: {r: 10.38, g: -0.63, b: 1, a: 1}
     - _SlideSpeed: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []

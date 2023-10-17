@@ -212,8 +212,8 @@ Material:
     - _GlossyReflections: 1
     - _GrassCut: 0
     - _GrassSaturation: 2.48
-    - _GrassShading: 0.005
-    - _GrassThinness: 1.26
+    - _GrassShading: 0.251
+    - _GrassThinness: 1.18
     - _GrassThinnessIntersection: 0.89
     - _Metallic: 0
     - _Metallic0: 0
@@ -224,11 +224,11 @@ Material:
     - _Metallic5: 0
     - _Metallic6: 1
     - _Metallic7: 0
-    - _MinimumNumberStacks: 9.01
+    - _MinimumNumberStacks: 7.8
     - _Mode: 0
     - _NearCameraSmoosh: 10.4
     - _NoisePower: 0.69
-    - _NumberOfStacks: 7.38
+    - _NumberOfStacks: 11.2
     - _OcclusionStrength: 1
     - _OffsetValue: 4.5
     - _Parallax: 0.02
@@ -292,7 +292,7 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DiffusionProfileAsset: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _GroundColor: {r: 1, g: 0.88, b: 0.75, a: 1}
+    - _GroundColor: {r: 0.7924528, g: 0.7924528, b: 0.7924528, a: 1}
     - _OffsetVector: {r: 0, g: 0, b: 0, a: 0}
     - _PJShadowColor: {r: 0, g: 0, b: 0, a: 1}
     - _ProjectedShadowColor: {r: 0.475, g: 0.31540003, b: 0.18240003, a: 1}

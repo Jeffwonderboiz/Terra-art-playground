@@ -21,7 +21,8 @@ Material:
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 2225
-  stringTagMap: {}
+  stringTagMap:
+    MotionVector: User
   disabledShaderPasses:
   - TransparentBackface
   m_SavedProperties:
@@ -140,7 +141,7 @@ Material:
     - _GlowWave_5_Speed_Y: 0.01
     - _Glow_Amount: 50
     - _Glow_GradientMultiply: 0
-    - _Glow_Min_Amount: 0.01
+    - _Glow_Min_Amount: 0.08
     - _Glow_MultiplyWithDiffuse: 0
     - _Glow_World_Scale: 0.01
     - _Glow_World_Speed: 0.15
@@ -189,8 +190,8 @@ Material:
     - _ZWrite: 1
     - __dirty: 0
     m_Colors:
-    - _Color: {r: 1, g: 0.9764151, b: 0.9764151, a: 1}
+    - _Color: {r: 0.3523051, g: 0.54413635, b: 0.8584906, a: 1}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
-    - _GlowColor: {r: 1, g: 0, b: 0.23137255, a: 0}
+    - _GlowColor: {r: 0.38679248, g: 0.36307406, b: 0.36656675, a: 0}
   m_BuildTextureStacks: []

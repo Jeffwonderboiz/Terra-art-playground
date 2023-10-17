@@ -15,7 +15,7 @@ MonoBehaviour:
   active: 1
   intensity:
     m_OverrideState: 1
-    m_Value: 0.7
+    m_Value: 0.672
   outlineThickness:
     m_OverrideState: 1
     m_Value: 1.25
@@ -39,10 +39,10 @@ MonoBehaviour:
     m_Value: 1
   fadeNear:
     m_OverrideState: 1
-    m_Value: 0.1
+    m_Value: 0
   fadeFar:
     m_OverrideState: 1
-    m_Value: 0.25
+    m_Value: 0.05
   depthSampleType:
     m_OverrideState: 1
     m_Value: 0
@@ -149,13 +149,13 @@ MonoBehaviour:
     m_Value: 0
   intensity:
     m_OverrideState: 1
-    m_Value: 0.35
+    m_Value: 0.267
   scatter:
     m_OverrideState: 1
-    m_Value: 0.75
+    m_Value: 0.287
   tint:
     m_OverrideState: 1
-    m_Value: {r: 0.6637148, g: 0.7509067, b: 0.8962264, a: 1}
+    m_Value: {r: 0.4433962, g: 0.3918662, b: 0.34091312, a: 1}
   dirtTexture:
     m_OverrideState: 0
     m_Value: {fileID: 0}
@@ -404,7 +404,7 @@ MonoBehaviour:
     m_Value: {fileID: 0}
   intensity:
     m_OverrideState: 1
-    m_Value: 0.05
+    m_Value: 0.044
   m_MaxSamples:
     m_OverrideState: 1
     m_Value: 9
@@ -510,13 +510,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a6b00fcf518bb94a90b408492e07b44, type: 3}
   m_Name: FilmGrain
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   type:
     m_OverrideState: 1
     m_Value: 0
   intensity:
     m_OverrideState: 1
-    m_Value: 0.25
+    m_Value: 0
   response:
     m_OverrideState: 1
     m_Value: 0.5
